@@ -21,12 +21,14 @@ This code book refers to 2 specific and new created files ([FEATURES.txt][FEAT] 
 Compatibility
 =============
 The run_analysis.R has been tested on Windows 10 with:
+
 | Software | Ver. |
 | ------ | ------ |
 | R version | 3.6.0 (2019-04-26)|
 | RStudio | 1.2.1335|
 
 It uses libraries:
+
 | Library | Ver. |
 | ------ | ------ |
 | readr |1.3.1|
