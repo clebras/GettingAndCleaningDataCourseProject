@@ -1,0 +1,105 @@
+Features for dt_stats
+=====================
+
+
+---------------------------------------------
+Col.#                |    Name              |
+---------------------------------------------
+[1]                  |            subject   |
+    Subject number from 1 to 30
+---------------------------------------------
+[2]                  |           activity   |
+	Only 6 differents activities:
+	WALKING
+	WALKING_UPSTAIRS
+	WALKING_DOWNSTAIRS
+	SITTING
+	STANDING
+	LAYING
+
+
+
+---------------------------------------------
+
+(see original features_info.txt for details)
+
+
+3                tBodyAcc-mean()-X_mean
+4                tBodyAcc-mean()-Y_mean
+5                tBodyAcc-mean()-Z_mean
+6                 tBodyAcc-std()-X_mean
+7                 tBodyAcc-std()-Y_mean
+8                 tBodyAcc-std()-Z_mean
+9             tGravityAcc-mean()-X_mean
+10            tGravityAcc-mean()-Y_mean
+11            tGravityAcc-mean()-Z_mean
+12             tGravityAcc-std()-X_mean
+13             tGravityAcc-std()-Y_mean
+14             tGravityAcc-std()-Z_mean
+15           tBodyAccJerk-mean()-X_mean
+16           tBodyAccJerk-mean()-Y_mean
+17           tBodyAccJerk-mean()-Z_mean
+18            tBodyAccJerk-std()-X_mean
+19            tBodyAccJerk-std()-Y_mean
+20            tBodyAccJerk-std()-Z_mean
+21              tBodyGyro-mean()-X_mean
+22              tBodyGyro-mean()-Y_mean
+23              tBodyGyro-mean()-Z_mean
+24               tBodyGyro-std()-X_mean
+25               tBodyGyro-std()-Y_mean
+26               tBodyGyro-std()-Z_mean
+27          tBodyGyroJerk-mean()-X_mean
+28          tBodyGyroJerk-mean()-Y_mean
+29          tBodyGyroJerk-mean()-Z_mean
+30           tBodyGyroJerk-std()-X_mean
+31           tBodyGyroJerk-std()-Y_mean
+32           tBodyGyroJerk-std()-Z_mean
+33              tBodyAccMag-mean()_mean
+34               tBodyAccMag-std()_mean
+35           tGravityAccMag-mean()_mean
+36            tGravityAccMag-std()_mean
+37          tBodyAccJerkMag-mean()_mean
+38           tBodyAccJerkMag-std()_mean
+39             tBodyGyroMag-mean()_mean
+40              tBodyGyroMag-std()_mean
+41         tBodyGyroJerkMag-mean()_mean
+42          tBodyGyroJerkMag-std()_mean
+43               fBodyAcc-mean()-X_mean
+44               fBodyAcc-mean()-Y_mean
+45               fBodyAcc-mean()-Z_mean
+46                fBodyAcc-std()-X_mean
+47                fBodyAcc-std()-Y_mean
+48                fBodyAcc-std()-Z_mean
+49           fBodyAcc-meanFreq()-X_mean
+50           fBodyAcc-meanFreq()-Y_mean
+51           fBodyAcc-meanFreq()-Z_mean
+52           fBodyAccJerk-mean()-X_mean
+53           fBodyAccJerk-mean()-Y_mean
+54           fBodyAccJerk-mean()-Z_mean
+55            fBodyAccJerk-std()-X_mean
+56            fBodyAccJerk-std()-Y_mean
+57            fBodyAccJerk-std()-Z_mean
+58       fBodyAccJerk-meanFreq()-X_mean
+59       fBodyAccJerk-meanFreq()-Y_mean
+60       fBodyAccJerk-meanFreq()-Z_mean
+61              fBodyGyro-mean()-X_mean
+62              fBodyGyro-mean()-Y_mean
+63              fBodyGyro-mean()-Z_mean
+64               fBodyGyro-std()-X_mean
+65               fBodyGyro-std()-Y_mean
+66               fBodyGyro-std()-Z_mean
+67          fBodyGyro-meanFreq()-X_mean
+68          fBodyGyro-meanFreq()-Y_mean
+69          fBodyGyro-meanFreq()-Z_mean
+70              fBodyAccMag-mean()_mean
+71               fBodyAccMag-std()_mean
+72          fBodyAccMag-meanFreq()_mean
+73      fBodyBodyAccJerkMag-mean()_mean
+74       fBodyBodyAccJerkMag-std()_mean
+75  fBodyBodyAccJerkMag-meanFreq()_mean
+76         fBodyBodyGyroMag-mean()_mean
+77          fBodyBodyGyroMag-std()_mean
+78     fBodyBodyGyroMag-meanFreq()_mean
+79     fBodyBodyGyroJerkMag-mean()_mean
+80      fBodyBodyGyroJerkMag-std()_mean
+81 fBodyBodyGyroJerkMag-meanFreq()_mean
